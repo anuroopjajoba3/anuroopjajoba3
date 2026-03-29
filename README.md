@@ -1,21 +1,19 @@
-### Anuroop Jajoba
+Hi, welcome to my corner of GitHub 👋
 
-Software Engineer & AI Builder. Co-founder at [PaySplit AI](https://paysplit.in).
+Software Engineer — AI, Fintech / Build, Ship, Learn
 
----
-
-I build production systems end-to-end — from ML pipelines and REST APIs to React frontends and cloud infrastructure. Currently looking for full-time Software Engineer or AI/ML Engineer roles.
-
-**Focus areas:** LLMs, RAG pipelines, agentic AI, backend systems, fintech
+[Website](https://paysplit.in) · [GitHub](https://github.com/anuroopjajoba3) · [LinkedIn](https://www.linkedin.com/in/anuroop-jajoba-4487031a2) · [Email](mailto:anuroopjajoba28@gmail.com)
 
 ---
 
-### Stack
+### 👨‍💻 About Me
+
+Software Engineer and co-founder with hands-on experience building production AI systems, REST APIs, and fintech infrastructure. My work spans LLM-powered pipelines, behavioral fraud detection, autonomous agents, and full-stack web applications.
+
+I value clean code, real deployments, and systems that actually work.
+
+---
+
+### 🛠 Stack
 
 Python · Java · TypeScript · Go · Spring Boot · FastAPI · React · LangChain · PostgreSQL · AWS · Docker
-
----
-
-### Connect
-
-[linkedin.com/in/anuroop-jajoba](https://linkedin.com/in/anuroop-jajoba) · anuroopjajoba28@gmail.com · [paysplit.in](https://paysplit.in)
