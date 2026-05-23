@@ -6,6 +6,8 @@
 I don't just use AI tools. I build them.
 ```
 
+![Profile Views](https://komarev.com/ghpvc/?username=anuroopjajoba3&color=58a6ff&style=flat-square&label=profile+views)
+
 [![Portfolio](https://img.shields.io/badge/↗_Portfolio-161b22?style=flat-square&logo=vercel&logoColor=58a6ff)](https://anuroopjajoba.com)&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-161b22?style=flat-square&logo=linkedin&logoColor=58a6ff)](https://linkedin.com/in/anuroop-jajoba-4487031a2)&nbsp;
 [![Email](https://img.shields.io/badge/Email-161b22?style=flat-square&logo=gmail&logoColor=58a6ff)](mailto:anuroopjajoba28@gmail.com)
@@ -62,9 +64,7 @@ stack = {
 
 <div align="center">
 
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=anuroopjajoba3&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58a6ff&title_color=58a6ff&ring_color=58a6ff"/>
-&nbsp;
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuroopjajoba3&layout=compact&theme=github_dark&hide_border=true&langs_count=6&title_color=58a6ff"/>
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anuroopjajoba3&theme=github-compact&hide_border=true&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff)
 
 </div>
 
