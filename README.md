@@ -1,115 +1,153 @@
+<!-- Header -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=3&section=header" width="100%"/>
+</div>
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:6d28d9,100:1e1b4b&height=200&section=header&text=Anuroop%20Jajoba&fontSize=50&fontColor=ede9fe&animation=twinkling&fontAlignY=55&desc=AI%20Engineer%20%E2%80%94%20I%20don%27t%20just%20use%20AI%20tools.%20I%20build%20them.&descSize=14&descAlignY=75&descColor=c4b5fd" width="100%"/>
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║   $ whoami                                                       ║
+║   > Anuroop Jajoba — AI Engineer · Co-Founder                   ║
+║                                                                  ║
+║   $ cat mission.txt                                              ║
+║   > Build production AI systems. Ship real things.              ║
+║                                                                  ║
+║   $ ./flagship --project ClinicalMind                           ║
+║   > 7-agent LangGraph pipeline                                  ║
+║   > 35M+ PubMed papers searched in parallel                     ║
+║   > Clinical reports generated in < 60 seconds                  ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=580&lines=%24+tech+stack+--list;LangGraph+%7C+LangChain+%7C+Claude+API+%7C+RAG+%7C+FHIR+R4;FastAPI+%7C+Spring+Boot+%7C+PostgreSQL+%7C+Redis+%7C+Kafka;AWS+%7C+Azure+%7C+Docker+%7C+Kubernetes+%7C+Terraform;%24+daily+tools+--list;Claude+Code+%7C+Cursor+%7C+GitHub+Copilot" alt="typing"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2500&pause=900&color=A78BFA&center=true&vCenter=true&width=600&lines=7-agent+LangGraph+%E2%86%92+clinical+reports+in+60s;LangChain+%C2%B7+RAG+%C2%B7+FastAPI+%C2%B7+FHIR+R4+%C2%B7+AWS;Co-Founder+%40+PaySplit+%7C+MS+IT+%40+UNH+2026;Claude+Code+%C2%B7+Cursor+%C2%B7+GitHub+Copilot+%E2%80%94+daily" alt="typing"/>
-
-<br/><br/>
-
-[![Portfolio](https://img.shields.io/badge/%E2%86%97_Portfolio-1e1b4b?style=for-the-badge&logoColor=a78bfa)](https://anuroopjajoba.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anuroop-jajoba-4487031a2)
-[![Email](https://img.shields.io/badge/Email-6d28d9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anuroopjajoba28@gmail.com)
+[![Portfolio](https://img.shields.io/badge/↗_anuroopjajoba.com-0d1117?style=flat-square&logo=vercel&logoColor=58a6ff&labelColor=161b22)](https://anuroopjajoba.com)&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=58a6ff&labelColor=161b22)](https://linkedin.com/in/anuroop-jajoba-4487031a2)&nbsp;
+[![Email](https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=58a6ff&labelColor=161b22)](mailto:anuroopjajoba28@gmail.com)
 
 </div>
 
-<br/>
+---
 
 ```python
-class AnuroopJajoba:
-    role       = "AI Engineer · Co-Founder"
-    focus      = ["Production AI Systems", "LLM Pipelines", "Fintech Infrastructure"]
-    stack      = ["LangGraph", "LangChain", "FastAPI", "Spring Boot", "AWS", "Azure"]
-    daily      = ["Claude Code", "Cursor", "GitHub Copilot"]
-    education  = "MS IT @ University of New Hampshire (2026)"
-    building   = "PaySplit — AI-powered fintech platform"
-    flagship   = "ClinicalMind — 7-agent clinical intelligence platform"
+# anuroop.py
+
+class Engineer:
+    name       = "Anuroop Jajoba"
+    role       = "AI Engineer · Software Engineer · Co-Founder"
+    education  = "MS Information Technology @ UNH (2026)"
+    focus      = [
+        "Production LLM Systems",
+        "Multi-Agent Pipelines",
+        "Fintech Infrastructure",
+        "Clinical AI"
+    ]
+    stack = {
+        "AI"      : ["LangGraph", "LangChain", "Claude API", "RAG", "ChromaDB", "FHIR R4"],
+        "Backend" : ["Python", "FastAPI", "Java", "Spring Boot", "Kafka", "Redis"],
+        "Cloud"   : ["AWS", "Azure", "Docker", "Kubernetes", "Terraform"],
+        "DevTools": ["Claude Code", "Cursor", "GitHub Copilot"],
+    }
+    currently_building = "PaySplit — AI-powered fintech platform"
+    flagship           = "ClinicalMind — 7-agent clinical intelligence"
+
+    def philosophy(self):
+        return "Most engineers use AI tools. I build them."
 ```
 
-<br/>
+---
 
-## ⚡ Featured Work
+## `~/projects`
+
+```bash
+$ ls -la ~/projects --sort=impact
+```
 
 <table>
 <tr>
-<td valign="top" width="50%">
+<td width="50%" valign="top">
 
-### 🏥 [ClinicalMind](https://github.com/anuroopjajoba3/clinical-mind)
-
-> *From days of research to 60 seconds*
-
-7-agent LangGraph pipeline with async FHIR R4 integration, parallel PubMed search across **35M+ papers**, pharmacovigilance AI, contradiction detection via Meditron + Claude fallback, and GRADE-assessed clinical synthesis.
-
-`LangGraph` `FastAPI` `PostgreSQL` `Redis SSE` `Azure` `FHIR R4` `SMART on FHIR`
+**[`clinical-mind`](https://github.com/anuroopjajoba3/clinical-mind)**
+```
+status   : production
+agents   : 7 (LangGraph)
+data     : 35M+ PubMed papers
+latency  : < 60 seconds
+infra    : Azure · FastAPI · FHIR R4
+special  : SMART on FHIR (Epic compatible)
+```
+> Async FHIR R4 client, parallel medical literature search, pharmacovigilance AI, contradiction detection via Meditron + Claude fallback, GRADE-assessed synthesis.
 
 </td>
-<td valign="top" width="50%">
+<td width="50%" valign="top">
 
-### 💳 [PaySplit](https://github.com/anuroopjajoba3/paysplit-backend)
-
-> *Fintech infra at 99.9%+ uptime*
-
-LangChain agentic workflows with Stripe + Plaid integrations, Python FastAPI + Java Spring Boot microservices on AWS ECS Fargate. Terraform IaC, GitHub Actions CI/CD, Datadog observability.
-
-`LangChain` `FastAPI` `Spring Boot` `Kafka` `AWS ECS` `Terraform` `Datadog`
+**[`paysplit-backend`](https://github.com/anuroopjajoba3/paysplit-backend)**
+```
+status   : pre-launch (LLC registered)
+stack    : FastAPI · Spring Boot · Kafka
+agents   : LangChain · Claude API
+infra    : AWS ECS Fargate · Terraform
+uptime   : 99.9%+
+ci/cd    : GitHub Actions · Datadog
+```
+> LangChain agentic workflows, Stripe + Plaid integrations, event-driven microservices at production scale.
 
 </td>
 </tr>
 <tr>
-<td valign="top" width="50%">
+<td width="50%" valign="top">
 
-### 🔍 [CodeReview.AI](https://github.com/anuroopjajoba3/codereview.ai)
-
-> *40% less manual review overhead*
-
-Claude API + LangChain RAG over ChromaDB. Detects SQL injection, hardcoded secrets, logic bugs. Shipped as VS Code extension + pre-commit hook adopted by 4-engineer team.
-
-`Claude API` `LangChain` `ChromaDB` `FastAPI` `AWS`
+**[`codereview.ai`](https://github.com/anuroopjajoba3/codereview.ai)**
+```
+status   : shipped
+impact   : -40% review overhead
+stack    : Claude API · LangChain · ChromaDB
+deploy   : AWS EC2 · S3 · GitHub Actions
+shipped  : VS Code extension + pre-commit hook
+```
+> RAG pipeline over codebase. Catches SQL injection, hardcoded secrets, logic bugs autonomously.
 
 </td>
-<td valign="top" width="50%">
+<td width="50%" valign="top">
 
-### 🧪 [LLM Failure Atlas](https://github.com/anuroopjajoba3/llm-failure-atlas)
-
-> *Adversarial AI safety research*
-
-30 coding tasks that expose LLM failure modes. Documented 7 failures across 5 behavioral patterns in Claude Opus. Open source contribution to AI evaluation research.
-
-`Python` `Adversarial Testing` `LLM Evaluation` `AI Safety`
+**[`llm-failure-atlas`](https://github.com/anuroopjajoba3/llm-failure-atlas)**
+```
+status   : open source
+tasks    : 30 adversarial coding tasks
+failures : 7 documented
+patterns : 5 behavioral failure modes
+model    : Claude Opus
+```
+> Adversarial benchmark exposing LLM failure modes. Contribution to AI safety research.
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
-## 🛠 Stack
-
-<div align="center">
-
-| AI / LLM | Backend | Cloud & DevOps | Observability |
-|----------|---------|----------------|---------------|
-| LangGraph | Python · FastAPI | AWS ECS Fargate | Datadog |
-| LangChain | Java · Spring Boot | Azure · Docker | CloudWatch |
-| Claude API | TypeScript · React | Kubernetes | Prometheus |
-| RAG · ChromaDB | PostgreSQL · Redis | Terraform | Grafana |
-| FHIR R4 | Kafka · Celery | GitHub Actions | Splunk |
-
-</div>
-
-<br/>
-
-## 📊 Stats
+## `~/stats`
 
 <div align="center">
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=anuroopjajoba3&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true"/>
+
+<img height="155" src="https://github-readme-stats.vercel.app/api?username=anuroopjajoba3&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&icon_color=58a6ff&title_color=58a6ff"/>
 &nbsp;
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuroopjajoba3&layout=compact&theme=midnight-purple&hide_border=true&langs_count=6"/>
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuroopjajoba3&layout=compact&theme=github_dark&hide_border=true&langs_count=6&title_color=58a6ff"/>
+
 </div>
 
-<br/>
+---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,100:6d28d9&height=80&section=footer&animation=fadeIn" width="100%"/>
+
+```
+// always open to interesting problems
+// anuroopjajoba28@gmail.com
+```
+
 </div>
