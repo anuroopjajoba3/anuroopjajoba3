@@ -1,116 +1,115 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0a0a0f,50:1a0533,100:0d1b2a&height=140&section=header&text=Anuroop%20Jajoba&fontSize=42&fontColor=e2d9f3&animation=fadeIn&fontAlignY=55&desc=AI%20Engineer%20%7C%20Co-Founder&descSize=16&descAlignY=78&descColor=a78bfa" width="100%"/>
-</div>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:6d28d9,100:1e1b4b&height=200&section=header&text=Anuroop%20Jajoba&fontSize=50&fontColor=ede9fe&animation=twinkling&fontAlignY=55&desc=AI%20Engineer%20%E2%80%94%20I%20don%27t%20just%20use%20AI%20tools.%20I%20build%20them.&descSize=14&descAlignY=75&descColor=c4b5fd" width="100%"/>
 
 <br/>
 
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1000&color=A78BFA&center=true&vCenter=true&width=680&lines=Built+a+7-agent+LangGraph+platform+%E2%86%92+60s+clinical+reports;LangChain+%C2%B7+RAG+%C2%B7+FastAPI+%C2%B7+AWS+%C2%B7+Azure+%C2%B7+FHIR+R4;Most+engineers+use+AI+tools.+I+build+them." alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2500&pause=900&color=A78BFA&center=true&vCenter=true&width=600&lines=7-agent+LangGraph+%E2%86%92+clinical+reports+in+60s;LangChain+%C2%B7+RAG+%C2%B7+FastAPI+%C2%B7+FHIR+R4+%C2%B7+AWS;Co-Founder+%40+PaySplit+%7C+MS+IT+%40+UNH+2026;Claude+Code+%C2%B7+Cursor+%C2%B7+GitHub+Copilot+%E2%80%94+daily" alt="typing"/>
+
+<br/><br/>
+
+[![Portfolio](https://img.shields.io/badge/%E2%86%97_Portfolio-1e1b4b?style=for-the-badge&logoColor=a78bfa)](https://anuroopjajoba.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anuroop-jajoba-4487031a2)
+[![Email](https://img.shields.io/badge/Email-6d28d9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anuroopjajoba28@gmail.com)
+
 </div>
 
 <br/>
-
-<div align="center">
-<a href="https://anuroopjajoba.com"><img src="https://img.shields.io/badge/%E2%86%97%20Portfolio-0a0a0f?style=for-the-badge&logoColor=a78bfa"/></a>&nbsp;
-<a href="https://linkedin.com/in/anuroop-jajoba-4487031a2"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-<a href="mailto:anuroopjajoba28@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</div>
-
----
-
-<table>
-<tr>
-<td valign="top" width="55%">
-
-### 🧠 &nbsp;What I build
-
-I ship **production AI systems** — not demos, not notebooks, not prototypes that work once in a dev environment.
-
-My flagship project **ClinicalMind** is a 7-agent LangGraph pipeline that takes a clinical question, loads a patient's full FHIR R4 medical record, searches 35M+ PubMed papers in parallel, runs pharmacovigilance checks, detects contradictions using a local medical LLM, and produces a GRADE-assessed clinical report — in **under 60 seconds**.
-
-I also co-founded **PaySplit**, a fintech platform with LangChain agentic workflows, Stripe + Plaid integrations, and microservices on **AWS ECS Fargate at 99.9%+ uptime**.
-
-</td>
-<td valign="top" width="45%">
-
-### ⚡ &nbsp;Stack
 
 ```python
-stack = {
-  "AI":      ["LangGraph", "LangChain", "Claude API",
-               "RAG", "ChromaDB", "FHIR R4"],
-  "Backend": ["Python", "FastAPI", "Java",
-               "Spring Boot", "Kafka", "Redis"],
-  "Cloud":   ["AWS", "Azure", "Docker",
-               "Kubernetes", "Terraform"],
-  "DevTools":["Claude Code", "Cursor",
-               "GitHub Copilot"],
-}
+class AnuroopJajoba:
+    role       = "AI Engineer · Co-Founder"
+    focus      = ["Production AI Systems", "LLM Pipelines", "Fintech Infrastructure"]
+    stack      = ["LangGraph", "LangChain", "FastAPI", "Spring Boot", "AWS", "Azure"]
+    daily      = ["Claude Code", "Cursor", "GitHub Copilot"]
+    education  = "MS IT @ University of New Hampshire (2026)"
+    building   = "PaySplit — AI-powered fintech platform"
+    flagship   = "ClinicalMind — 7-agent clinical intelligence platform"
 ```
 
-</td>
-</tr>
-</table>
+<br/>
 
----
-
-### 🚀 &nbsp;Projects
+## ⚡ Featured Work
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top" width="50%">
 
-**[🏥 ClinicalMind](https://github.com/anuroopjajoba3/clinical-mind)**
+### 🏥 [ClinicalMind](https://github.com/anuroopjajoba3/clinical-mind)
 
-7-agent LangGraph clinical intelligence platform. Async FHIR R4 client, parallel PubMed search across 35M+ papers, pharmacovigilance AI, contradiction detection via Meditron + Claude fallback, GRADE-assessed synthesis in 60 seconds.
+> *From days of research to 60 seconds*
 
-`FastAPI` `PostgreSQL` `Redis SSE` `Celery` `Azure` `SMART on FHIR`
+7-agent LangGraph pipeline with async FHIR R4 integration, parallel PubMed search across **35M+ papers**, pharmacovigilance AI, contradiction detection via Meditron + Claude fallback, and GRADE-assessed clinical synthesis.
+
+`LangGraph` `FastAPI` `PostgreSQL` `Redis SSE` `Azure` `FHIR R4` `SMART on FHIR`
 
 </td>
-<td width="50%" valign="top">
+<td valign="top" width="50%">
 
-**[💳 PaySplit](https://github.com/anuroopjajoba3/paysplit-backend)**
+### 💳 [PaySplit](https://github.com/anuroopjajoba3/paysplit-backend)
 
-AI-powered fintech platform. LangChain agents with tool-calling + stateful memory, Stripe Issuing + Plaid integrations, FastAPI + Spring Boot microservices on AWS ECS Fargate at 99.9%+ uptime.
+> *Fintech infra at 99.9%+ uptime*
 
-`LangChain` `FastAPI` `Spring Boot` `Kafka` `Terraform` `Datadog`
+LangChain agentic workflows with Stripe + Plaid integrations, Python FastAPI + Java Spring Boot microservices on AWS ECS Fargate. Terraform IaC, GitHub Actions CI/CD, Datadog observability.
+
+`LangChain` `FastAPI` `Spring Boot` `Kafka` `AWS ECS` `Terraform` `Datadog`
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td valign="top" width="50%">
 
-**[🔍 CodeReview.AI](https://github.com/anuroopjajoba3/codereview.ai)**
+### 🔍 [CodeReview.AI](https://github.com/anuroopjajoba3/codereview.ai)
 
-Production AI code review agent using Claude API + LangChain RAG over ChromaDB. Detects SQL injection, hardcoded secrets, logic bugs. 40% reduction in review overhead. Shipped as VS Code extension + pre-commit hook.
+> *40% less manual review overhead*
+
+Claude API + LangChain RAG over ChromaDB. Detects SQL injection, hardcoded secrets, logic bugs. Shipped as VS Code extension + pre-commit hook adopted by 4-engineer team.
 
 `Claude API` `LangChain` `ChromaDB` `FastAPI` `AWS`
 
 </td>
-<td width="50%" valign="top">
+<td valign="top" width="50%">
 
-**[🧪 LLM Failure Atlas](https://github.com/anuroopjajoba3/llm-failure-atlas)**
+### 🧪 [LLM Failure Atlas](https://github.com/anuroopjajoba3/llm-failure-atlas)
 
-Adversarial benchmark for frontier LLMs. 30 coding tasks designed to expose failure modes — 7 documented failures across 5 behavioral patterns in Claude Opus. Open source contribution to AI safety research.
+> *Adversarial AI safety research*
 
-`Python` `Adversarial Testing` `LLM Evaluation`
+30 coding tasks that expose LLM failure modes. Documented 7 failures across 5 behavioral patterns in Claude Opus. Open source contribution to AI evaluation research.
+
+`Python` `Adversarial Testing` `LLM Evaluation` `AI Safety`
 
 </td>
 </tr>
 </table>
 
----
+<br/>
+
+## 🛠 Stack
 
 <div align="center">
 
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=anuroopjajoba3&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide_rank=false"/>
-&nbsp;&nbsp;
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuroopjajoba3&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"/>
+| AI / LLM | Backend | Cloud & DevOps | Observability |
+|----------|---------|----------------|---------------|
+| LangGraph | Python · FastAPI | AWS ECS Fargate | Datadog |
+| LangChain | Java · Spring Boot | Azure · Docker | CloudWatch |
+| Claude API | TypeScript · React | Kubernetes | Prometheus |
+| RAG · ChromaDB | PostgreSQL · Redis | Terraform | Grafana |
+| FHIR R4 | Kafka · Celery | GitHub Actions | Splunk |
 
 </div>
 
 <br/>
 
+## 📊 Stats
+
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,50:1a0533,100:0a0a0f&height=80&section=footer&animation=fadeIn" width="100%"/>
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=anuroopjajoba3&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true"/>
+&nbsp;
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuroopjajoba3&layout=compact&theme=midnight-purple&hide_border=true&langs_count=6"/>
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,100:6d28d9&height=80&section=footer&animation=fadeIn" width="100%"/>
 </div>
